@@ -145,3 +145,11 @@ $landing-inner-height: 360px;
 .sidebar-page-content {
    height: 100%;
 }
+
+
+.content-block {
+    max-width: $content-width;
+    max-height: 100%;
+    margin: 0 auto;
+    min-height: 200px;
+}
