@@ -143,13 +143,9 @@ $landing-inner-height: 360px;
 }
 
 .sidebar-page-content-outer {
-    height: 100vh;
     background-color: $fill-light;
 }
 
-.sidebar-page-content {
-   height: 100%;
-}
 
 
 .content-block {
@@ -157,4 +153,12 @@ $landing-inner-height: 360px;
     max-height: 100%;
     margin: 0 auto;
     min-height: 200px;
+}
+
+.slideshow {
+    height: 400px;
+    max-height: 400px;
+    .slideshow--image {
+        height: 100%;
+    }
 }
