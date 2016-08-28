@@ -160,5 +160,11 @@ $landing-inner-height: 360px;
     max-height: 400px;
     .slideshow--image {
         height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &#one, &#two, &#three {
+            background: url('/assets/img/landing/scenes.jpg');
+        }
     }
 }
