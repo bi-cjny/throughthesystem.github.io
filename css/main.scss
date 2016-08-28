@@ -123,7 +123,7 @@ $landing-inner-height: 360px;
 
 // sidebar
 .sidebar-outer {
-    height: 100vh;
+    height: calc(100vh - #{$header-height});
     .sidebar-logo {
         width: 100%;
         height: $header-height;
