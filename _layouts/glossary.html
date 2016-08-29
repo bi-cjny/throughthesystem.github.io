@@ -11,7 +11,9 @@ title: Glossary
             <div class="menu xs-p2">
                 <h1 class="xs-text-left"><a href="/glossary">Glossary</a></h1>
                 {% for post in site.categories.glossary-terms %}
-                    <div class="xs-text-2 xs-p1 xs-m1"><a href="{{post.url}}">{{post.title}}</a></div>
+                    <div class="xs-text-2 xs-p1 xs-m1 menu-item">
+                        <a href="{{post.url}}">{{post.title}}</a>
+                    </div>
                 {% endfor %}
             </div>
         </div>

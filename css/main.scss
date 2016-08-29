@@ -140,6 +140,19 @@ $landing-inner-height: 360px;
     }
     .menu {
         color: $fill-darker;
+        .menu-item {
+            border-left: 5px solid $fill-white;
+            border-bottom: 3px solid $fill-white;
+            &:hover {
+                border-bottom: 3px solid $fill-light;
+            }
+            &.active {
+                border-left: 5px solid $fill-dark;
+            }
+        }
+        a {
+            color: $fill-darker !important;
+        }
     }
 }
 
