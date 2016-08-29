@@ -27,7 +27,8 @@ html, body {
 }
 
 .wrapper {
-    background-color: $fill-light;
+    background-color: $fill-white;
+    overflow: scroll;
 }
 
 .content {
@@ -35,8 +36,8 @@ html, body {
     margin: 0 auto;
 }
 
-.baloo {
-    font-family: 'Baloo Paaji', cursive;
+.arvo {
+    font-family: 'Arvo', serif;
 }
 
 // landing
@@ -81,7 +82,6 @@ $landing-inner-height: 360px;
         background-size: auto 100%;
     }
     .landing-title {
-        font-family: 'Baloo Paaji', cursive;
         color: $fill-darker;
     }
 }
@@ -90,7 +90,6 @@ $landing-inner-height: 360px;
 .header-outer {
     width: 100vw;
     height: $header-height;
-    background-color: $fill-white;
     .header-inner {
         width: 100%;
         max-width: $content-width;
@@ -110,7 +109,7 @@ $landing-inner-height: 360px;
             }
         }
         .menu-item {
-            font-family: 'Baloo Paaji', cursive;
+            font-family: 'Arvo', sans-serif;
             line-height: $header-height;
             text-align: center;
             &:hover {
@@ -137,18 +136,20 @@ $landing-inner-height: 360px;
         overflow: scroll;
     }
     .menu {
-        font-family: 'Baloo Paaji', cursive;
         color: $fill-darker;
     }
 }
 
 .sidebar-page-content-outer {
+    margin-top: $header-height;
     background-color: $fill-light;
+    height: calc(100vh - #{$header-height});
 }
 
 
 
 .content-block {
+    margin-top: $header-height;
     max-width: $content-width;
     max-height: 100%;
     margin: 0 auto;
@@ -156,6 +157,7 @@ $landing-inner-height: 360px;
 }
 
 .slideshow {
+    margin-top: $header-height;
     height: calc(100vh - #{$header-height});
     .slideshow--image {
         height: 100%;
