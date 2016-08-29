@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: Alternative to Detention
-category: glossary-term
+category: glossary-terms
 ---
 
 # Alternative to Detention

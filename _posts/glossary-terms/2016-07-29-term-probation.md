@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: Probation
-category: glossary-term
+category: glossary-terms
 ---
 
 # Probation

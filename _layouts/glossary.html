@@ -1,0 +1,24 @@
+---
+layout: default
+title: Glossary
+---
+
+{% include partials/header.html %}
+
+<div class="glossary-container">
+    <div class="sidebar-outer xs-col-12 sm-col-3 lg-col-2 sm-fixed xs-b0 sm-b0 xs-l0 sm-py 3sm-border-bottom sm-border-right fill-white solid-nav">
+        <div class="sidebar-content arvo">
+            <div class="menu xs-p2">
+                <h1 class="xs-text-left"><a href="/glossary">Glossary</a></h1>
+                {% for post in site.categories.glossary-terms %}
+                    <div class="xs-text-2 xs-p1 xs-m1"><a href="{{post.url}}">{{post.title}}</a></div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-page-content-outer xs-col-12 sm-col-9 lg-col-10 sm-offset-3 lg-offset-2 sm-p4 xs-p1 xs-overflow-scroll">
+        <div class="sidebar-page-content fill-white md-p3 xs-p1 arvo">
+            {{content}}
+        </div>
+    </div>
+</div>

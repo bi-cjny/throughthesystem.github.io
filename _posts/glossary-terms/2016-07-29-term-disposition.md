@@ -1,7 +1,7 @@
 ---
 layout: glossary
 title: Disposition
-category: glossary-term
+category: glossary-terms
 ---
 
 # Disposition
