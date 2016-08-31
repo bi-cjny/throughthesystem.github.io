@@ -165,7 +165,7 @@ $landing-inner-height: 360px;
 
 
 .content-block {
-    margin-top: $header-height;
+    margin-top: $header-height !important;
     max-width: $content-width;
     max-height: 100%;
     margin: 0 auto;
