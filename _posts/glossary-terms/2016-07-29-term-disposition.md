@@ -1,9 +1,9 @@
 ---
 layout: glossary
-title: Disposition
+title: Disposition Hearing
 category: glossary-terms
 ---
 
-# Disposition
+# Disposition Hearing
 
-A disposition is when a thing and some stuff happens.
+At this point in the juvenile justice system the judge will determine the type of sentencing or legal consequences that are appropriate to the juvenile offender’s crime. It is similar to sentencing.
