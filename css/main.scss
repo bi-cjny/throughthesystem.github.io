@@ -174,7 +174,18 @@ $landing-inner-height: 360px;
 
 .slideshow {
     margin-top: $header-height;
-    height: calc(100vh - #{$header-height});
+    //height: calc(100vh - #{$header-height});
+
+    .image-container{
+        margin-left: 50px;
+        mergin-right: 50px;
+    }
+
+    img{
+        width: auto;
+        max-width: 100%;
+    }
+
     .slideshow--image {
         height: 100%;
         background-size: cover;

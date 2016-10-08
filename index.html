@@ -4,11 +4,20 @@ layout: default
 
 {% include partials/header.html %}
 
-<a href="/play">
+<a href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">
     <div class="card slideshow">
-        <div class="slideshow--image" id="one"></div>
+
+        {% for image in site.static_files %}
+        {% if image.path contains 'img/landing' %}
+        <div class="image-container">
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        <!--div class="slideshow--image" id="one"></div>
         <div class="slideshow--image" id="two"></div>
-        <div class="slideshow--image" id="three"></div>
+        <div class="slideshow--image" id="three"></div-->
     </div>
 </a>
 <div class="content-block sm-p3 sm-pt1 xs-p0 xs-pt1 arvo">
@@ -18,7 +27,7 @@ layout: default
             A Choose-Your-Own Adventure exploring the Juvenile Justice System
         </p>
         <p>
-            <a href="/play">Play Now.</a>
+            <a href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">Play Now.</a>
         </p>
     </div>
 </div>
