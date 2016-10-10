@@ -16,13 +16,13 @@ $sidebar-width: 280px;
 
 // global noise
 html, body, .wrapper {
-    width: 100vw;
-    height: 100vh;
+    //width: 100vw;
+    //height: 100vh;
     padding: 0px;
     margin: 0px;
-    position: fixed;
-    top: 0;
-    right: 0;
+    //position: fixed;
+    //top: 0;
+    //right: 0;
 }
 
 html, body {
@@ -169,30 +169,38 @@ $landing-inner-height: 360px;
     max-width: $content-width;
     max-height: 100%;
     margin: 0 auto;
-    min-height: 200px;
+}
+
+.call-to-action{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: $header-height;
+
+    .play{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 200px;
+        margin-left: -100px;
+        margin-top: 250px;
+    }
 }
 
 .slideshow {
-    margin-top: $header-height;
-    //height: calc(100vh - #{$header-height});
-
     .image-container{
         margin-left: 50px;
-        mergin-right: 50px;
+        margin-right: 50px;
     }
 
     img{
         width: auto;
         max-width: 100%;
     }
+}
 
-    .slideshow--image {
-        height: 100%;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        &#one, &#two, &#three {
-            background: url('/assets/img/landing/scenes.jpg');
-        }
-    }
+.slick-slide{
+    height: auto !important;
 }

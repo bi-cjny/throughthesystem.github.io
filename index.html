@@ -3,23 +3,6 @@ layout: default
 ---
 
 {% include partials/header.html %}
-
-<a href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">
-    <div class="card slideshow">
-
-        {% for image in site.static_files %}
-        {% if image.path contains 'img/landing' %}
-        <div class="image-container">
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-        </div>
-        {% endif %}
-        {% endfor %}
-
-        <!--div class="slideshow--image" id="one"></div>
-        <div class="slideshow--image" id="two"></div>
-        <div class="slideshow--image" id="three"></div-->
-    </div>
-</a>
 <div class="content-block sm-p3 sm-pt1 xs-p0 xs-pt1 arvo">
     <div class="xs-text-center">
         <div class="xs-text-1">Julie Through the System</div>
@@ -27,7 +10,34 @@ layout: default
             A Choose-Your-Own Adventure exploring the Juvenile Justice System
         </p>
         <p>
-            <a href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">Play Now.</a>
+            <a class="button" href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">Play Now!</a>
         </p>
     </div>
 </div>
+<a href="http://story-stage.throughthesystem.com.s3-website-us-east-1.amazonaws.com/">
+    <div class="card slideshow">
+
+        {% for image in site.static_files %}
+        {% if image.path contains 'img/landing' %}
+        <div class="image-container">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="call-to-action">
+        <div class="button">
+            Play now!
+        </div>
+
+    </div>
+</a>
+<div class="content-block sm-p3 sm-pt1 xs-p0 xs-pt1 arvo">
+    <div class="xs-text-center">
+        <div class="xs-text-1"></div>
+        <p class="">
+            Created by the <a href="http://www.burnsinstitute.org/">Burns Institute</a>
+        </p>
+    </div>
+</div>
+
