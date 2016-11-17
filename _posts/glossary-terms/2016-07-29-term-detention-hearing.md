@@ -6,4 +6,4 @@ category: glossary-terms
 
 # Detention Hearing
 
-Detention hearings are conducted by Judges. At this hearing, the judge must decide whether to continue detaining the child or whether the law violation can be safely and effectively resolved if the child goes home in the meantime.
+Detention hearings are when the judge decides whether to keep you locked up before your trail because the court thinks you will commit another crime before your court date or that you won’t show up to court on your court date.

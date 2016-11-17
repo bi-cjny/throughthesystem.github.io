@@ -6,4 +6,4 @@ category: glossary-terms
 
 # Incarceration
 
-The state of being confined in prison or a correctional facility. Used as a tool for punishment for crimes.
+This is when youth or adults are locked up in prison or a correctional facility.

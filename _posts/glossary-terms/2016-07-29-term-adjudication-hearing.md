@@ -6,4 +6,4 @@ category: glossary-terms
 
 # Adjudication Hearing
 
-A formal examination of evidence before a judge in order to decide or determine delinquency. All charges must be proven beyond reasonable doubt before guilt is established.
+This is when the judge decides whether the youth is guilty or innocent of committing a crime. This comes before a youth is given their sentence (punishment for committing the crime).
